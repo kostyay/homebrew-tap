@@ -14,22 +14,22 @@ cask "httpmon" do
   on_macos do
     on_intel do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_darwin_amd64.tar.gz"
-      sha256 "5fd4e86b64af1b5138b353f6724a1448757f25f66a7c6fbe8a7aad325eeedbbe"
+      sha256 "a334f831b25814811a288fafd1b1d3fcaf9a6e196ce45a6796bfa1b7ba6886c2"
     end
     on_arm do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_darwin_arm64.tar.gz"
-      sha256 "9a44221e204483579446f7f9832cd43914fd5f83616e9b7a9647f3e38c5ba0f5"
+      sha256 "c1a2e2692e09ce30c6b66a4b3112ec250280663ba50c787433833fe9627c10e3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_linux_amd64.tar.gz"
-      sha256 "fe2914c52d8b35670f9b94a413cb39a232399f2fd1df06678a2e2cd0a2fd0388"
+      sha256 "142736be37125212e47d577fbfa5acf1addd839be7025c4a296369de26bd2073"
     end
     on_arm do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_linux_arm64.tar.gz"
-      sha256 "58e1cb62119291f69855024e6bb9e6bde93e77eb0b376f7342afaa82ec65b8aa"
+      sha256 "e7298ba0e64d01e0018d001533d7a416554325135443ee122786c87eb1020458"
     end
   end
 
