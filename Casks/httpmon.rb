@@ -3,7 +3,7 @@ cask "httpmon" do
   name "httpmon"
   desc "Terminal-native HTTP/HTTPS debugging proxy"
   homepage "https://httpmon.dev"
-  version "0.1.11"
+  version "0.1.12"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "httpmon" do
   on_macos do
     on_intel do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_darwin_amd64.tar.gz"
-      sha256 "47c77b602698c1c4a376f37f586e9715ef0b482b3c9eeaead2ac04e45ab04905"
+      sha256 "6a75b0e2f70b2cf555020f46132120c3b886e32b704085da37ab928d9e4ccee0"
     end
     on_arm do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_darwin_arm64.tar.gz"
-      sha256 "9a125eb3689293e6e6ab8789e8454babf8d5cc6d7b43d60cb05352381bf17071"
+      sha256 "6e3a73139a906885f95fd807a455a7a33dffcd8e1fd8a0ea1f5f8c32ffcd1db2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_linux_amd64.tar.gz"
-      sha256 "cc2da5f2caf44d021c54491a30825842579cc6f0059769c6e28e49cb2f0ca94c"
+      sha256 "e4ca82326a4d7e1109dcd6b61e2f3d64eb23f450aa30acb2d6e322e0368c4999"
     end
     on_arm do
       url "https://github.com/kostyay/httpmon/releases/download/v#{version}/httpmon_#{version}_linux_arm64.tar.gz"
-      sha256 "99e13a86ef2b2fc352a22806548484af2c024f86f3acdc0ed151da1d56fbec30"
+      sha256 "f70ee22721e506e9356d6fb681272abf9e2721bc3ee667d7150e63f4276efab2"
     end
   end
 
