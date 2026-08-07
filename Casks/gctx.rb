@@ -3,7 +3,7 @@ cask "gctx" do
   name "gctx"
   desc "kubectx for gcloud configurations"
   homepage "https://github.com/kostyay/gcloud-switch"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gctx" do
   on_macos do
     on_intel do
       url "https://github.com/kostyay/gcloud-switch/releases/download/v#{version}/gctx_#{version}_darwin_amd64.tar.gz"
-      sha256 "15c8e10ef45bc6ae55630d424c5d912025bad587ba87c329e09bdbe018e86b14"
+      sha256 "faeb922b295fab0ad28fa8be7633b16d99e5aff955c3a4795754d0de74df96b4"
     end
     on_arm do
       url "https://github.com/kostyay/gcloud-switch/releases/download/v#{version}/gctx_#{version}_darwin_arm64.tar.gz"
-      sha256 "18743802d8ac087d58042ece597d56ca3ab45a31231aced3ee728170ce576e5e"
+      sha256 "a7c3ff5be7d97d7dbd7ee3869db390faa5b20e1766c6743c86ab61bbdf6f12c0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kostyay/gcloud-switch/releases/download/v#{version}/gctx_#{version}_linux_amd64.tar.gz"
-      sha256 "768c508a5f0e9ee2a0ee142ac5e48f5a0dd78b407d97f02e17426e386345533b"
+      sha256 "2f3b75ee6e33bbe09790e9c573df4692a62ac54c6fa9b9f525290dd185c38eeb"
     end
     on_arm do
       url "https://github.com/kostyay/gcloud-switch/releases/download/v#{version}/gctx_#{version}_linux_arm64.tar.gz"
-      sha256 "cd2f15b8bdfa34c7e331a409254aaf38f1a0ea93a9b3945cc26a9c56627b2b43"
+      sha256 "157b5686c156403c70ee6692ccabac23be2e4a46c2bfedb6ac95cf62c2e5eace"
     end
   end
 
